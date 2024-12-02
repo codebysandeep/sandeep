@@ -30,7 +30,8 @@ This project is powered by:
 
 The workspace is organized into distinct applications for better modularity:
 
-my-workspace/
+```
+sandeep/
 ├── apps/
 │   ├── astro-site/   # The Astro-powered website
 │   ├── react-app/    # React-based components or additional features
@@ -38,3 +39,4 @@ my-workspace/
 ├── package.json      # Workspace dependencies
 ├── tailwind.config.js # Tailwind CSS configuration
 └── nx.json           # Nx workspace configuration
+```
