@@ -40,3 +40,64 @@ sandeep/
 ├── tailwind.config.js # Tailwind CSS configuration
 └── nx.json           # Nx workspace configuration
 ```
+
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/personal-website.git
+cd personal-website
+```
+
+### 2. Install Dependencies
+Ensure you have Node.js installed, then run:
+```bash
+npm install
+```
+
+### 3. Run the Development Server
+Start the Astro site:
+```bash
+nx serve astro-site
+```
+Start the React app:
+```bash
+nx serve react-app
+```
+Visit the website at http://localhost:4200 (or the specified port).
+
+
+## 🛠️ Development Notes
+### Building the Project
+**To generate a production build:**
+``bash
+nx build astro-site
+nx build react-app
+```
+
+**Linting and Formatting**
+**Run the linter:**
+```bash
+nx lint
+```
+
+**Format the code:**
+```bash
+nx format
+```
+
+**Testing**
+You can add tests using the Nx testing capabilities:
+```bash
+nx test react-app
+```
+
+## 📜 License
+This project is open-source and available under the MIT License.
+
+---
+
+## 🙌 Acknowledgments
+Thanks to the developers behind Nx, Astro, React, and Tailwind CSS for creating such powerful tools.  
+Special shoutout to the open-source community for inspiration and resources.
